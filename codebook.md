@@ -25,8 +25,7 @@ For each record in the dataset it is provided:
 #Get the Data
 Download the file and unzip the file into the work dirctory folder
 Using "path_rf <- file.path("./data" , "UCI HAR Dataset")" to get the list of the files. 
-For the purposes of this project, the files in the Inertial Signals folders are not used. 
-The files that will be used to load data are listed as follows:
+For the purposes of this project, The files that will be used to load data are listed as follows:
 - test/subject_test.txt
 - test/X_test.txt- 
 - test/y_test.txt
