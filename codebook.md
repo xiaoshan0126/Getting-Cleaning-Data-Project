@@ -34,5 +34,23 @@ The files that will be used to load data are listed as follows:
 - train/X_train.txt
 - train/y_train.txt
 
-#1. Merge
-2
+#1. Merges the training and the test sets to create one data set
+- Concatenate the data tables by rows
+- set names to variables
+- Merge columns to get the data frame for all data
+
+#2. Extracts only the measurements on the mean and standard deviation for each measurement
+- Subset Name of Features by measurements on the mean and standard deviation
+- Subset the data frame 
+- The structures of the data frame can be checked by "str(Data)"
+
+#3. Uses descriptive activity names to name the activities in the data set
+- Read descriptive activity names from “activity_labels.txt”
+- facorize Variale activity in the data frame Data using descriptive activity names
+
+#4. Appropriately labels the data set with descriptive variable names
+- Names of Feteatures will labelled using descriptive variable names
+
+#5. Creates a tidy data set with the average of each variable for each activity and each subject
+- Use the write.table() function
+
