@@ -13,3 +13,5 @@ In this project, a R script needs to be created and named as run_analysis.R that
 3.	Uses descriptive activity names to name the activities in the data set
 4.	Appropriately labels the data set with descriptive variable names.
 5.	Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Detailed information can be found in the codebook.md
